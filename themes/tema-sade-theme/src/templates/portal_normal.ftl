@@ -10,7 +10,8 @@
 
 	<@liferay_util["include"] page=top_head_include />
 
-	<#--  <@liferay.js main="${javascript_folder}/main.js" />  -->
+	<script defer src="${javascript_folder}/prueba.js"></script>
+
 </head>
 
 <body class="${css_class}">
@@ -20,6 +21,9 @@
 <@liferay_util["include"] page=body_top_include />
 
 <@liferay.control_menu />
+
+
+
 
 <div class="container-fluid" id="wrapper">
 	<header id="banner" role="banner">
@@ -69,6 +73,7 @@
 				key="powered-by-x"
 			/>
 		</p>
+<p>hola</p>
 	</footer> -->
 
 	<footer>
