@@ -59,7 +59,6 @@
                 <div class="row">
                     <div class="col-12 p-2">
                         <div class="card mb text-center" style="background-image: url('${pageContext.request.contextPath}/imagenes/cercania.jpg')">
-                            <!--  -->
                             <div class="texto-linea">
                                 <h2>Cercanía</h2>
                                 <hr>
@@ -72,20 +71,25 @@
                         <div class="card mb text-center" style="background-image: url('${pageContext.request.contextPath}/imagenes/agilidad.jpg')">
                             <div class="texto-linea">
                                 <h2>Agilidad</h2>
+                                <hr>
                                 <p>Velocidad de respuesta con nuestros clientes</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-md-8 p-2">
-                        <div class="card mb text-center" style="background-color: #0064ac;">
-                            <p>70 clientes</p>
+                        <div class="card mb text-center d-flex align-content-center justify-content-center align-items-center flex-wrap" style="background-color: #0064ac;">
+                            <div class="counter">0 </div>
+                            <p class="clientes">clientes</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 p-2">
-                        <div class="card mb text-center" style="background-color: #387ba0;">
-                            <p>+100 consultores</p>
+                        <div class="card mb text-center d-flex flex-row align-content-center justify-content-center align-items-center flex-wrap" style="background-color: #387ba0;">
+                            <p class="consultores"> + </p>
+                            <div class="numero" id="numeroCons">0 </div>
+                            <p class="consultores">consultores</p>
+                            <img src="${pageContext.request.contextPath}/imagenes/metro1.svg" width="20px">
                         </div>
                     </div>
 
@@ -93,16 +97,21 @@
                         <div class="card mb text-center" style="background-image: url('${pageContext.request.contextPath}/imagenes/creatividad.jpg')">
                             <div class="texto-linea">
                                 <h2>Creatividad</h2>
+                                <hr>
                                 <p>Continua generación de ideas e innovación que impactan de manera real y tangible en el negocio de nuestros clientes</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 p-2">
-                        <div class="card mb text-center" style="background-color: #22adbf;">
-                            <p>+200 proveedores</p>
+                        <div class="card mb text-center d-flex flex-row align-content-center justify-content-center align-items-center flex-wrap" style="background-color: #22adbf;">
+                            <p class="proyectos"> + </p>
+                            <div class="numero" id="numeroProy">0 </div>
+                            <p class="proyectos"> proyectos</p>
                         </div>
                     </div>
 
                 </div>
             </section>
+
+            <script src="${pageContext.request.contextPath}/js/scrips.js"></script>
