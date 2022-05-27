@@ -1,7 +1,6 @@
-.carousel-inner {
-    height: 500px;
-}
-
+// .carousel-inner {
+//     height: 500px;
+// }
 img {
     margin: 0 auto;
     max-width: 100%;
@@ -111,7 +110,7 @@ img {
     left: 0%;
     height: 100%;
     width: 100%;
-    /* overflow: hidden; */
+    overflow: hidden;
     padding: 50px;
 }
 
@@ -124,4 +123,66 @@ video {
     height: auto;
     width: 100%;
     z-index: -100;
+}
+
+.grupo-back {
+    /* width: 220px; */
+    height: 200px;
+}
+
+.imgJava,
+.imgNet {
+    /* max-width: 50%; */
+    width: 100px;
+}
+
+.grupo-life {
+    height: 90px;
+}
+
+.imgLife {
+    /* max-width: 50%; */
+    /* width: 70%; */
+    padding: 10px;
+    /* height: 50px; */
+}
+
+.grupo-xam {
+    /* width: 250px; */
+    height: 90px;
+}
+
+.imgXam {
+    padding: 10px;
+    width: 100px;
+}
+
+.grupo-and {
+    height: 110px;
+}
+
+.imgAnd {
+    padding: 10px;
+    width: 70px;
+}
+
+.grupo-text {
+    color: white;
+    /* font-size: 25px; */
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
+.grupo-texto {
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
 }

@@ -19,29 +19,29 @@
                         <div class="carousel-item active">
                             <img class="d-block" src="${pageContext.request.contextPath}/images/soluciones_yservicios_web.jpg">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5>SOMOS TU PARTNER EN TRANSFORMACIÓN DIGITAL</h5>
+                                <p>SOMOS GRUPO SADE</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block" src="${pageContext.request.contextPath}/images/enfoque_integral_web.jpg">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5>ENFOQUE INTEGRAL</h5>
+                                <p>Acompañamos a nuestros clientes a lo largo de todas las etapas de su transformación digital</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block" src="${pageContext.request.contextPath}/images/grupo-sade_web.jpg">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5>SOLUCIONES Y SERVICIOS</h5>
+                                <p>Soluciones de software eficientes, rentables y sostenibles</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block" src="${pageContext.request.contextPath}/images/inday-banner.jpg">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5>INDAY APORTA EL VALOR Y LOS RESULTADOS NECESARIOS EN LOS PROCESOS DE REPORTING EN MOVILIDAD</h5>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                             <div class="card card-icon mb flex-row align-content-center align-items-center justify-content-center" style="background-color:#0064ac;">
                                 <a href="#" class="enlace-icon">
                                     <span>ESTRATEGIA Y CONCEPTUALIZACIÓN</span>
-                                    <img src="imagenes/strategy.png">
+                                    <img src="${pageContext.request.contextPath}/imagenes/strategy.png">
                                 </a>
                             </div>
                         </div>
@@ -140,7 +140,7 @@
                                 <div class="card card-icon mb flex-row align-content-center align-items-center justify-content-center" style="background-color:#0064ac;">
                                     <a href="#" class="enlace-icon">
                                         <span>USER EXPERIENCE</span>
-                                        <img src="imagenes/user.png">
+                                        <img src="${pageContext.request.contextPath}/imagenes/user.png">
                                     </a>
                                 </div>
                             </div>
@@ -149,7 +149,7 @@
                                 <div class="card card-icon mb flex-row align-content-center align-items-center justify-content-center" style="background-color:#0064ac;">
                                     <a href="#" class="enlace-icon">
                                         <span>INGENIERÍA DE SOFTWARE</span>
-                                        <img src="imagenes/responsive.png">
+                                        <img src="${pageContext.request.contextPath}/imagenes/responsive.png">
                                     </a>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                 <div class="card card-icon mb flex-row align-content-center align-items-center justify-content-center" style="background-color:#0064ac;">
                                     <a href="#" class="enlace-icon">
                                         <span>SOFTWARE QUALITY ASSURANCE</span>
-                                        <img src="imagenes/assurance.png">
+                                        <img src="${pageContext.request.contextPath}/imagenes/assurance.png">
                                     </a>
                                 </div>
                             </div>
@@ -170,7 +170,7 @@
                             <div class="card card-icon mb flex-row align-content-center align-items-center justify-content-center" style="background-color:#0064ac;">
                                 <a href="#" class="enlace-icon">
                                     <span>OUTSOURCING</span>
-                                    <img src="imagenes/team.png">
+                                    <img src="${pageContext.request.contextPath}/imagenes/team.png">
                                 </a>
                             </div>
                         </div>
@@ -178,44 +178,54 @@
                     </div>
 
                     <video autoplay loop muted class="fillWidth visible-lg">
-                        <!-- poster="imagenes/video-poster.jpg" -->
-                    <source src="https://www.grupo-sade.com/Content/Videos/Wall-Sketching.mp4" type="video/mp4; "/>        
-                    Your browser does not support the video tag.
-                    </video>
+                <!-- poster="imagenes/video-poster.jpg" -->
+            <source src="https://www.grupo-sade.com/Content/Videos/Wall-Sketching.mp4" type="video/mp4; "/>        
+            Your browser does not support the video tag.
+            </video>
                 </div>
             </section>
 
             <!-- Contenido con tecnologías -->
             <section class="cobertura">
                 <div class="container">
-                    <div class="row">
-                        <h2>Proporcionamos cobertura tecnológica a todos los ámbitos de la cadena de valor</h2>
+                    <div class="row justify-content-center" style="text-align: center; padding: 20px;">
+                        <h2>Proporcionamos cobertura tecnológica a todos <br> los ámbitos de la cadena de valor</h2>
                     </div>
 
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="row">
-                                <div class="card" style="background-color: #898a8d;">
-                                    <img src="imagenes/java-logo.png">
+                                <div class="col-md-6">
+                                    <div class="card mb grupo-back align-items-center justify-content-center" style="background-color: #898a8d;">
+                                        <img class="imgJava" src="${pageContext.request.contextPath}/imagenes/java-logo.png">
+                                    </div>
                                 </div>
-                                <div class="card" style="background-color: #898a8d;">
-                                    <img src="imagenes/net_blanco.png">
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="card" style="background-color: #22ADBF;">
-                                    <img src="imagenes/liferay.png">
-                                </div>
-                                <div class="card" style="background-color: #22ADBF;">
-                                    <img src="imagenes/sharepoint.png">
+                                <div class="col-md-6">
+                                    <div class="card mb grupo-back align-items-center justify-content-center" style="background-color: #898a8d;">
+                                        <img class="imgNet" src="${pageContext.request.contextPath}/imagenes/net_blanco.png">
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="card">
-                                    <p>Explotación de información corporativa</p>
-                                    <p>Automatización de procesos de negocio</p>
+                                <div class="col-lg-6">
+                                    <div class="card mb grupo-life align-items-center justify-content-center" style="background-color: #22ADBF;">
+                                        <img class="imgLife" src="${pageContext.request.contextPath}/imagenes/liferay.png">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="card mb grupo-life align-items-center justify-content-center" style="background-color: #22ADBF;">
+                                        <img class="imgLife" src="${pageContext.request.contextPath}/imagenes/sharepoint.png">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card mb grupo-text" style="background-color: #898a8d;">
+                                        <p>Explotación de información corporativa</p>
+                                        <p>Automatización de procesos de negocio</p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -223,37 +233,45 @@
 
                         <div class="col-lg-3">
                             <div class="row">
-                                <div class="card" style="background-color: #0064AC;">
-                                    <img src="imagenes/xamagon.png">
+                                <div class="col-lg-12">
+                                    <div class="card mb grupo-xam grupo-life align-items-center justify-content-center" style="background-color: #0064AC;">
+                                        <img class="imgXam" src="${pageContext.request.contextPath}/imagenes/xamagon.png">
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="card" style="background-color: #0064AC;">
-                                    <img src="imagenes/android.png">
-                                </div>
-                                <div class="card" style="background-color: #0064AC;">
-                                    <img src="imagenes/apple.png">
-                                </div>
-                                <div class="card" style="background-color: #0064AC;">
-                                    <img src="imagenes/windows.png">
+                                <div class="col-lg-12">
+                                    <div class="card  grupo-and align-items-center justify-content-center" style="background-color: #0064AC;">
+                                        <img class="imgAnd" src="${pageContext.request.contextPath}/imagenes/android.png">
+                                    </div>
+                                    <div class="card  grupo-and align-items-center justify-content-center" style="background-color: #0064AC;">
+                                        <img class="imgAnd" src="${pageContext.request.contextPath}/imagenes/apple.png">
+                                    </div>
+                                    <div class="card mb grupo-and align-items-center justify-content-center" style="background-color: #0064AC;">
+                                        <img class="imgAnd" src="${pageContext.request.contextPath}/imagenes/windows.png">
+                                    </div>
                                 </div>
                             </div>
-
-                            <div class="col-lg-3">
-                                <div class="row">
-                                    <div class="card" style="background-color: #0064AC;">
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card mb grupo-texto" style="background-color: #0064AC;">
                                         <p>Digitalización&ECM</p>
                                         <p>Apps B2C/B2B/b2E</p>
                                     </div>
+                                </div>
 
-                                    <div class="card" style="background-color: #0064AC;">
+                                <div class="col-lg-12">
+                                    <div class="card mb grupo-texto" style="background-color: #0064AC;">
                                         <p>Portales y eCommerce</p>
                                         <p>Entornos de colaboracion omnicanal</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
             </section>
 
             <script src="${pageContext.request.contextPath}/js/scrips.js"></script>
